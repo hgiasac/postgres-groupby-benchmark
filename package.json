@@ -1,0 +1,37 @@
+{
+  "name": "postgres-groupby-benchmark",
+  "version": "1.0.0",
+  "description": "Postgres groupby benchmark",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "test": "npm test",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hgiasac/postgres-groupby-benchmark.git"
+  },
+  "keywords": [
+    "postgres",
+    "groupby"
+  ],
+  "author": "Toan Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hgiasac/postgres-groupby-benchmark/issues"
+  },
+  "homepage": "https://github.com/hgiasac/postgres-groupby-benchmark#readme",
+  "dependencies": {
+    "@types/benchmark": "^1.0.31",
+    "@types/dotenv": "^6.1.1",
+    "@types/pg": "^7.11.2",
+    "benchmark": "^2.1.4",
+    "dotenv": "^8.1.0",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
