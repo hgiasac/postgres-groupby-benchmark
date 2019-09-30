@@ -23,7 +23,7 @@ npm start
 
 ### Benchmark Result
 
-*Note*: Benchmark without index, excution time in milliseconds
+*Note*: Benchmark without index, execution time in milliseconds
 
 | Name | Planning Time | PG Exec Time | Total Exec Time | Ratio |
 | ---- | ------------- | ------------ | --------------- | ----- |
