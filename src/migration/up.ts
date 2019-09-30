@@ -2,7 +2,7 @@ import { Pool, QueryResult } from "pg";
 import { randomOperationName, randomStatusCode, randomUserName, randomUserRole } from "../constants";
 import { getPool } from "../db";
 
-const fixtureSize = () => process.env.FIXTURE_SIZE ? parseInt(process.env.FIXTURE_SIZE, 1) : 1;
+const fixtureSize = () => process.env.FIXTURE_SIZE ? parseInt(process.env.FIXTURE_SIZE, 10) : 1;
 
 function createTables(db: Pool): Promise<QueryResult<any>> {
   console.log("Create tables");
